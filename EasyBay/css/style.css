@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.leaf{
+    background-color: #51cfad;
+    border: #51cfad;
+    width: 30px;
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
+.nav{
+    width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+.signIn{
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    width: 200px;
+}
+.lupa{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: -30px;
+
+}
+.search{
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 530px;
+    height: 30px;
+    margin-left: 100px;
+    padding-left: 20px;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 65px;
+    justify-content: space-around;
+}
+.list-succulents{
+    margin: 0 auto;
+    text-align:center;
+    display: flex;
+    gap: 1%;
+}
+.list-succulents ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    margin-left: 10px;
+    position:relative;
+    left: 50px;
+}
+h2{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    padding: 20px 20px;
+}
+
+h3{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+    margin: 0 30px;
+}
+.carrito{
+    width: 30px;
+}
+
+.container-middle{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+.row{
+    background-color: #51cfad;
+    height: 150px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.row2{
+    background-color: #51cfad;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 130px;
+    margin: 0 auto;
+    border-color: black;
+}
+.column{
+    display: flex;
+    width: 340px;
+    background-color: #51cfad;
+    text-align: center;
+    height: 250px;
+}
+.aloe-m{
+    height: 150px;
+    width: 300px;
+}
+.arrow{
+    width: 20px;
+}
+.container-bottom{
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: #a1ede2;
+    padding-bottom: 60px;
+    padding-top:30px;
+    margin-bottom: 45px;
+}
+.all-images img{
+    border-radius: 50%;
+}
+.list-succulents .box-b img{
+    margin-top: 20px;
+    height: 110px;
+    width: 100px;
+    margin-left: 25px;
+    border-radius: 60%;
+    margin-bottom: 10px;
+}
+.succulents{
+    width: 500px;
+}
+.box-b{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    
+}
+.cookies{
+    border: 1px solid black;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.accept{
+    color: white;
+    background-color: #51cfad;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 30px;
+    border: 2px solid black;
+    padding: 10px 5px;
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+.column .arrow{
+    position: relative;
+    top: 45px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
